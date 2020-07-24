@@ -1,10 +1,17 @@
 import Head from 'next/head'
+import styled from 'styled-components'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = '[Your Name]'
 export const siteTitle = 'Next.js Sample Website'
+
+const Container = styled.div`
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+`
 
 export default function Layout({
   children,
@@ -14,7 +21,7 @@ export default function Layout({
   home?: any
 }) {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -67,6 +74,6 @@ export default function Layout({
           </Link>
         </div>
       )}
-    </div>
+    </Container>
   )
 }
