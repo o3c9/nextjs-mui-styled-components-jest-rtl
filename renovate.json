@@ -1,5 +1,21 @@
 {
   "extends": [
     "config:base"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["devDependencies"],
+      "packagePatterns": ["lint", "prettier"],
+      "automerge": true
+    },
+    {
+      "updateTypes": ["patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
   ]
 }
