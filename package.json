@@ -25,7 +25,7 @@
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.1.0",
     "@types/jest": "27.0.1",
-    "@types/node": "14.17.15",
+    "@types/node": "14.17.17",
     "@types/react": "17.0.20",
     "@types/styled-components": "5.1.14",
     "identity-obj-proxy": "3.0.0",
