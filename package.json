@@ -29,7 +29,7 @@
     "@types/react": "17.0.37",
     "@types/styled-components": "5.1.17",
     "identity-obj-proxy": "3.0.0",
-    "jest": "27.4.3",
+    "jest": "27.4.4",
     "jest-dom": "4.0.0",
     "styled-components": "5.3.3",
     "ts-jest": "27.1.0",
