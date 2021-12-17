@@ -27,7 +27,7 @@
     "@types/jest": "27.0.3",
     "@types/node": "16.11.14",
     "@types/react": "17.0.37",
-    "@types/styled-components": "5.1.17",
+    "@types/styled-components": "5.1.18",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.4.4",
     "jest-dom": "4.0.0",
